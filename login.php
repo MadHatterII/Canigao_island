@@ -6,6 +6,11 @@ session_start();
 if (isset($_SESSION["user_id"])) {
     header("Location: tickethome.php");
     exit;
+
+
+
+
+    
 }
 
 // Include the database connection
